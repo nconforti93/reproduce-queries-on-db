@@ -296,7 +296,7 @@ def _param_value_from_datatype(dt: Dict[str, Any], nls_formats: Dict[str, str]):
             return random.randint(1, 10)
         whole = random.randint(1, 10)
         frac = random.randint(0, (10 ** int(scale)) - 1)
-        return Decimal(f"{whole}.{frac:0{int(scale)}d}")
+        return random.randint(1, 10)
 
     if t in ("INTEGER", "INT", "BIGINT", "SMALLINT"):
         return random.randint(1, 10)
