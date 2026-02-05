@@ -1,0 +1,7 @@
+{
+  "user": "sys",
+  "password": "exasol",
+  "dsn": "",
+  "encryption": true,
+  "schema": ""
+}
